@@ -6,7 +6,8 @@ define(['chaplin'], function(Chaplin) {
   var Application = Chaplin.Application.extend({
     // Set your application name here so the document title is set to
     // “Controller title – Site title” (see Layout#adjustTitle)
-    title: 'Chaplin Example Application'
+    title: 'ChaplinOne'
+
   });
 
   return Application;

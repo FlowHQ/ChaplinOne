@@ -5,8 +5,8 @@ define([
 ], function(Controller, HelloWorld, HelloWorldView) {
   'use strict';
 
-  var HelloWorldController = Controller.extend({
-    show: function(params) {
+  var ArtistsController = Controller.extend({
+    index: function(params) {
       this.model = new HelloWorld();
       this.view = new HelloWorldView({
         model: this.model,
@@ -15,5 +15,5 @@ define([
     }
   });
 
-  return HelloWorldController;
+  return ArtistsController;
 });

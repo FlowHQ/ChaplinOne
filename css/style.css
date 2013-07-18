@@ -1,0 +1,25 @@
+body {
+
+	background-color: #bada55;
+}
+
+#navigation {
+	background-color: red;
+	height:50px;
+}
+
+#leftbar {
+
+	background-color: blue;
+	height:50px;
+	width:40%;
+	float:left;
+}
+
+#main-content {
+
+	background-color: green;
+	height:50px;
+	width:60%;
+	float:right;
+}
